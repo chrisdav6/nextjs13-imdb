@@ -1,6 +1,6 @@
 const AboutPage = () => {
   return (
-    <div className='max-w-6xl mx-auto space-y-4'>
+    <div className='max-w-6xl mx-auto space-y-4 p-4'>
       <h1 className='text-2xl font-medium text-amber-600'>About</h1>
       <p>
         Launched online in 1990 and a subsidiary of Amazon.com since 1998, IMDb
