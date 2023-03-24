@@ -16,7 +16,7 @@ const Card = ({ movie }) => {
           placeholder='blur'
           blurDataURL='/spinner.svg'
           style={{ maxWidth: '100%', height: 'auto' }}
-          alt={movie.original_title || movie.title}
+          alt={`Movie ${movie.id}`}
         />
 
         <div className='p-2'>
